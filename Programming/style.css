@@ -7,6 +7,10 @@ body{
     margin:0px;
 }
 
+#para{
+    margin: 0%;
+}
+
 .mainheader{
     align-items: center;
     display: flex;
@@ -61,17 +65,32 @@ body{
 }
 
 .navbar{
+    height: 59.8px;
     font-family: roboto;
-    padding: 1%;
+    padding: 0%;
     color: #A8E622;
     background:#C21DAC ;
     display: flex;
     align-items: center;
     justify-content:flex-start;
     justify-content: space-evenly;
+    margin: 0%;
 }
 
 .aboutdark{
     background-color: #A81A95;
-    padding: 7.8px;
+    padding: 19px;
 }
+
+.aboutbg{
+    margin-left: 36%;
+    background-color: #363636;
+    height: 700px;
+    width: auto;
+}
+
+.abouthover:hover{
+    background-color: #A81A95;
+    padding: 20px;
+}
+  
